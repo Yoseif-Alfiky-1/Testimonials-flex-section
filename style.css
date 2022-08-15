@@ -1,0 +1,308 @@
+body {
+    background-color:   hsl(210, 46%, 95%) ;
+}
+
+.section {
+    background-color:   hsl(210, 46%, 95%) ;
+    border-radius: 15px;
+    margin-top: 2%;
+  
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.part1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    width:50em;
+  
+
+}
+
+
+.part2 {
+    width: 17em;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image img {
+    width: 35px; 
+    height: 35px;
+    border-radius: 50px;
+    border: 4px solid rgb(151, 138, 138);
+    margin-right: 20px;
+}
+.image {
+    display: flex;
+}
+.image h5 {
+    margin-top: 1%;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.image h5 span {
+
+   color:gray;
+}
+
+
+
+.card1 {
+    width: 60%;
+    border: 4px solid hsl(263, 58%, 53%);
+    margin: 1%;
+    color: aliceblue;
+    background-color: hsl(263, 55%, 52%);
+    padding:3%;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: 100;
+    display:flex;
+    flex-wrap: wrap;
+    transition: 1.5s ease;
+    
+}
+
+.card1 p {
+    color:rgb(201, 199, 199);
+}
+
+.card1:hover {
+    border: 4px solid hsl(263, 51%, 50%);
+    background-color: hsl(263, 69%, 56%);
+    color: rgb(229, 235, 241);
+    font-size: 11px;
+  
+    
+}
+
+
+.card2 {
+    width:21%;
+    border: 4px solid hsl(217, 20%, 33%);
+    margin: 1%;
+    color: aliceblue;
+    background-color:hsl(217, 19%, 35%);
+    padding:3%;
+    border-radius: 15px;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: 100;
+    display:flex;
+    flex-wrap: wrap;
+    transition: 1.5s ease;
+}
+
+
+.card2 p {
+    color:rgb(201, 199, 199);
+}
+
+
+.card2:hover {
+    border: 4px solid hsl(216, 19%, 28%);
+    color: rgb(220, 226, 231);
+    background-color:hsl(216, 19%, 39%);
+    font-size: 11px;
+}
+    
+
+
+.card3 {
+    width:22%;
+    border: 4px solid hsl(0, 7%, 94%);
+    margin: 1%;
+    background-color: hsl(0, 0%, 100%);
+    padding:3%;
+    border-radius: 15px;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: 100;
+    display:flex;
+    flex-wrap: wrap;
+    transition: 1.5s ease;
+
+}
+
+.card3 p {
+    color:rgb(141, 140, 140);
+}
+
+
+.card3:hover {
+    border: 4px solid hsl(0, 2%, 82%);
+    background-color: hsl(0, 100%, 97%);
+    font-size: 12px;
+}
+
+
+.card4 {
+    width:60%;
+    border: 4px solid rgb(23, 32, 42);
+    margin: 1%;
+    background-color:hsl(219, 29%, 14%);
+    padding:3%;
+    color: aliceblue;
+    border-radius: 15px;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: 100;
+    display:flex;
+    flex-wrap: wrap;
+    transition: 1.5s ease;
+}
+
+
+.card4 p {
+    color:rgb(178, 175, 175);
+}
+
+
+.card4:hover {
+    border: 4px solid rgb(18, 25, 33);
+    background-color:hsl(216, 32%, 20%);
+    color: rgb(216, 224, 231);
+    font-size: 11px;
+}
+
+
+
+
+.card5 {
+    width: 95%;
+    border: 4px solid rgb(230, 228, 228);
+    margin:1%;
+    background-color:hsl(0, 0%, 100%);
+    padding:4%;
+    border-radius: 15px;
+    border-radius: 15px;
+    font-size: 16.8px;
+    font-weight: 100;
+    margin-left: 3%;
+    display:flex;
+    flex-wrap: wrap;
+    transition: 1.5s ease;
+
+}
+
+
+.card5 p {
+    color:rgb(164, 164, 164);
+}
+
+
+.card5:hover {
+    border: 4px solid rgb(190, 187, 187);
+    background-color:hsl(0, 73%, 96%);
+    font-size: 15px;
+}
+
+@media (max-width:1279px) {
+
+.part2 {
+    width:49.3em;
+}
+
+.card5 {
+    margin:1%;
+    margin-left:0%;
+
+}
+.card5 h1 {
+    margin-right: 10%;
+}
+}
+/*
+@media(max-width:890px) {
+
+    .card1{
+
+     width: 70%;
+    }
+    .card2 {
+        width:30%;
+       
+    }
+    
+    .card3 {
+        width:30%;
+    
+    
+    }
+    .card4 {
+        width: 70%;
+    }
+    
+
+}
+*/
+
+@media(max-width:890px) {
+
+    .card1{
+
+     width: 90%;
+    }
+    .card2 {
+
+        width:41%;  
+    }
+    .card3 {
+        width:41%;
+    }
+    .card4 {
+        width: 90%;
+    }
+    
+  
+
+}
+
+@media(max-width:815px) {
+
+    .card2 {
+
+        width:40%;  
+    }
+    .card3 {
+        width:40%;
+    }
+
+}
+
+
+@media(max-width:705px) {
+
+    .card2 {
+
+        width:44%;  
+    }
+    .card3 {
+        width:40%;
+    }
+
+}
+
+
+@media(max-width:705px) {
+
+    .card2 {
+
+        width:95%;  
+    }
+    .card3 {
+        width:95%;
+    }
+
+}
